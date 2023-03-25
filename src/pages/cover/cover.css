@@ -73,7 +73,7 @@ h2 ,h1 , .div ,.div111{
   font-weight: bold;
   color: rgb(0, 0, 0);
   text-align: center;
-  letter-spacing: 5px;
+  -spacing: 5px;
   text-shadow: 3px 3px 20px #9a9a9a,
     -2px 1px 30px #a7a7a7;
 }
@@ -92,7 +92,7 @@ h2 ,h1 , .div ,.div111{
     font-family: 'Ubuntu', sans-serif;
     text-shadow: 3px 3px 20px #9a9a9a,
     -2px 1px 30px #a7a7a7;
-    letter-spacing: 3px;
+    /* letter-spacing: 3px; */
 }
 
 

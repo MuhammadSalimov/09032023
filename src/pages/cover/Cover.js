@@ -64,7 +64,7 @@ const Cover = () => {
     <div className="Cover00"></div>
     <div onClick={Show} className="icons"><i className="fa-solid fa-bars" ></i></div>
     <div className="start"><Link className="aaa" to="/home">Kirish</Link> </div>
-    <div className="authors"><Link className="aaa" to="/home">Mualliflar</Link></div>
+    <div className="authors"><Link className="aaa" to="/authors">Mualliflar</Link></div>
 
   </>;
 };

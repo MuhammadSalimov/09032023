@@ -188,7 +188,7 @@ const Home = () => {
           </div> */}
           <div className="latterList" >
           <div onClick={latterF} id="all" className="latter latterall">
-            ^
+           <i  className="fa-solid fa-home latter"></i>
           </div>
           <div onClick={latterF} id="a" className="latter lattera">
             A
