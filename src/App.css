@@ -422,7 +422,7 @@ body {
         content: '';
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.477);
+        background-color: rgba(255, 255, 255, 0.259);
         position: absolute;
         left: 0;
         top: 0;
@@ -450,7 +450,7 @@ body {
         width: 100%;
         height: 100%;
         outline: none;
-        color: chocolate;
+        color: black;
         font-weight: 600;
         text-transform: capitalize;
         border: transparent;
@@ -491,7 +491,7 @@ body {
         /* border: .5px solid black; */
         text-align: center;
         overflow-y: scroll;
-        color: chocolate;
+        color: black;
         
     }
     .latterList .latter{
@@ -500,7 +500,7 @@ body {
     }
     .latterList .lattershow {
         background-color:transparent;
-        color: #ccc;
+        color: chocolate;
         font-weight: 700;
         /* border: .5px solid black; */
         border-radius: 5px;
@@ -512,7 +512,7 @@ body {
     width: 90%;
     height: 85%;
     overflow-y: scroll;
-    color: rgb(227, 227, 227);
+    color: rgb(0, 0, 0);
    
     /* border: 1px solid green; */
 }
@@ -552,7 +552,7 @@ body {
     content: '';
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.462);
+    background-color: rgba(255, 255, 255, 0.462);
     position: absolute;
     z-index: -1;
 }
@@ -571,18 +571,18 @@ body {
     line-height: 20px;
 }
 .wrapper .inform-container .nick-name1{
-    color: chocolate;
+    color: black;
     font-weight: 700;
 }
 .wrapper .inform-container .nick-name{
-    color: chocolate;
+    color: black;
     font-weight: 700;
 }
 .wrapper .inform-container .info-name{
-    color: chocolate;
+    color: black;
 }
 .wrapper .inform-container p{
-    color:rgb(194, 191, 184);
+    color:black;
     font-weight: 800;
     font-family: 'Roboto', sans-serif;
     /* letter-spacing: 1px; */
