@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./cover.css";
 const Cover = () => {
 
@@ -45,7 +46,7 @@ const Cover = () => {
       <p className='LLL'>A</p>
       <p className='LLL'>T</p>
       </div>
-    <div className='btn1'><a href='/home'><button className='btn'>Kirish </button></a></div> 
+    <div className='btn1'><Link to="/home"><button className='btn'>Kirish </button></Link></div> 
       <h1>OʻRTA ASRLAR TARIXI</h1>
       
       <h2>ASOSIY TERMINLAR VA ТUSHUNCHALAR</h2>
@@ -62,8 +63,8 @@ const Cover = () => {
     </div>
     <div className="Cover00"></div>
     <div onClick={Show} className="icons"><i className="fa-solid fa-bars" ></i></div>
-    <div className="start"> <a href="/home">Kirish</a> </div>
-    <div className="authors"><a href="/authors">Mualliflar</a></div>
+    <div className="start"><Link className="aaa" to="/home">Kirish</Link> </div>
+    <div className="authors"><Link className="aaa" to="/home">Mualliflar</Link></div>
 
   </>;
 };

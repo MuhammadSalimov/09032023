@@ -106,7 +106,7 @@ h2 ,h1 , .div ,.div111{
     
 }
 
-.btn1 a{
+.btn1 .aaa{
     text-decoration: none;
 
 }
@@ -193,7 +193,7 @@ h2 ,h1 , .div ,.div111{
 
 
 
-    .authors a, .start a{
+    .authors .aaa, .start .aaa{
         color: black;
         font-weight: 800;
         text-decoration: none;
