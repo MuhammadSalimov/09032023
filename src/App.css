@@ -512,7 +512,7 @@ body {
     width: 90%;
     height: 85%;
     overflow-y: scroll;
-    color: rgb(206, 202, 202);
+    color: rgb(227, 227, 227);
    
     /* border: 1px solid green; */
 }
@@ -564,7 +564,7 @@ body {
 .wrapper .inform-container .wordabout-box{
     /* border: 1px solid rgb(0, 0, 0); */
 
-    padding: 10px;
+    padding: 10px 10px 10px 15px;
     width: 100%;
     height:80%;
     overflow-y: scroll;
@@ -581,7 +581,7 @@ body {
     color: chocolate;
 }
 .wrapper .inform-container p{
-    color:#fff;
+    color:rgb(194, 191, 184);
     font-weight: 800;
     font-family: 'Roboto', sans-serif;
     /* letter-spacing: 1px; */
