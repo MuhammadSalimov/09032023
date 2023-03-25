@@ -1,0 +1,125 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+section{
+    height: 100vh !important;
+    width: 100vw;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: blueviolet;
+}
+.container{
+    width: 90% !important;
+}
+.h222{
+   
+    margin-bottom:5% !important;
+}
+
+
+.h111{
+    font-size: 30px;
+}
+
+.title{
+    margin-bottom: 10% !important;
+    text-align: center !important;
+}
+
+.dflex{
+    width: 100% !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+}
+
+.col1{
+    width: 30% !important;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.col1 img{
+    width: 100% !important;
+}
+
+.col2{
+    width: 70% !important;
+    display: flex !important;
+    align-items: center !important;
+    padding: 0px 5px !important;
+}
+
+.col2 .h222{
+    text-align: center !important;
+    font-size: 26px;
+}
+
+
+
+@media (max-width:400px) {
+    .container{
+        width: 90% !important;
+    }
+    .h111{
+        font-size: 16px !important;
+    }
+    .h222{
+        font-size: 12px !important;
+    }
+    .ppp{
+        font-size: 10px !important;
+    }
+}
+
+@media (min-width:400px)and (max-width:480px){
+    .h111{
+        font-size: 20px !important;
+    }
+    .h222{
+        font-size: 18px !important;
+    }
+    .container{
+        width: 90% !important;
+    }
+    .ppp{
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width:480px)and (max-width:768px){
+    .h111{
+        font-size: 24px !important;
+    }
+    .h222{
+        font-size: 22px !important;
+    }
+    .container{
+        width: 90% !important;
+    }
+    .ppp{
+        font-size: 18px !important;
+    }
+}
+
+@media (min-width:10px) and (max-width:300px){
+    .container{
+        width: 90% !important;
+    }
+    .dflex{
+        width: 100% !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+    .col1{
+        width: 100% !important;
+        margin-bottom: 10% !important;
+    }
+    .col2{
+     width: 100% !important;
+}
+}
