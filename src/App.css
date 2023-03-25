@@ -422,7 +422,7 @@ body {
         content: '';
         width: 100%;
         height: 100%;
-        background-color: rgba(255, 255, 255, 0.259);
+        background-color: rgba(255, 255, 255, 0.462);
         position: absolute;
         left: 0;
         top: 0;
@@ -443,13 +443,15 @@ body {
         width: 100%;
         height: 100%;
         border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 
     .word-container .search-box input{
         width: 90%;
         height: 100%;
-        margin-left: 3%;
         outline: none;
         color: black;
         font-weight: 600;
@@ -487,7 +489,7 @@ body {
     } */
     
      .latterList{
-        margin-left:3%;
+        margin-left:4%;
         width:10% ;
         height:85%;
         /* border: .5px solid black; */
@@ -511,7 +513,7 @@ body {
 
     .word-container .word-box{
         padding: 0px 0px 10px 10px;
-    width: 87%;
+    width: 85%;
     height: 85%;
     overflow-y: scroll;
     color: rgb(0, 0, 0);
@@ -542,7 +544,7 @@ body {
     background-image: url('./izohli.jpg');
     background-size: cover;
     z-index: 10;
-    width: 100%;
+    width: 98%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -560,7 +562,7 @@ body {
 }
 
 .wrapper .inform-container.show{
-    transform: translateX(0);
+    transform: translateX(2%);
 
 }
 .wrapper .inform-container .wordabout-box{
