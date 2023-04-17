@@ -6,13 +6,14 @@ const Cover = () => {
   const Show = ()=>{
     const start = document.querySelector('.start')
     const authors = document.querySelector('.authors')
+    const library = document.querySelector('.library')
     start.classList.toggle('show')
     authors.classList.toggle('show')
-
+    library.classList.toggle('show')
 
   }
 
-  return <>
+  return <div>
       <div className='Cover'>
       <div className='div' >
       <p> E </p>
@@ -64,9 +65,9 @@ const Cover = () => {
     <div className="Cover00"></div>
     <div onClick={Show} className="icons"><i className="fa-solid fa-bars" ></i></div>
     <div className="start"><Link className="aaa" to="/home">Kirish</Link> </div>
-    <div className="authors"><Link className="aaa" to="/authors">Mualliflar</Link></div>
-
-  </>;
+    <div className="authors"><Link className="aaa" to="/authors">Mualliflar</Link></div> 
+    <div className="library"><Link className="aaa" to="/library">Adabiyotlar</Link></div>
+  </div>;
 };
 
 export default Cover;

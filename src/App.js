@@ -2,6 +2,7 @@ import React from 'react'
 import Home from './Components/Home'
 import Cover from './pages/cover/Cover'
 import Authors from './pages/Authors/Authors'
+import Library from './pages/Library/Library'
 import { AppProvider } from './context'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={ <Cover />} />
         <Route path="/authors" element={<Authors />} />
+        <Route path="/library" element={<Library />} />
         <Route path="/home" element={<Home/>} />
       </Routes>
       </BrowserRouter>

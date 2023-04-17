@@ -4,16 +4,16 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    background-color: #934BC9;
+    background-color: aqua;
 }
 
 body{
-    background-color: #934BC9;
+    background-color:blueviolet;
 }
 
-html{
-    background-color: #934BC9;
-}
+/* html{
+    background-color: ;
+} */
 
 .div{
     width: 30px;
@@ -108,7 +108,6 @@ h2 ,h1 , .div ,.div111{
 
 .btn1 .aaa{
     text-decoration: none;
-
 }
 
 #WrapperC{
@@ -137,18 +136,25 @@ h2 ,h1 , .div ,.div111{
     display: none;
 }
 
-.authors , .start{
+.authors , .start , .library{
     display: none;
 }
 
 @media (max-width:992px) {
+
+    .Cover{
+        background-color: aqua;
+    }
     .Cover h1 , .btn1, h2 {
         font-size: 16px;
     }
 }
 
 @media (max-width:768px){
-
+    
+    .Cover{
+        background-color: aqua;
+    }
     .authors{
         display: block;
         width: 150px;
@@ -182,7 +188,22 @@ h2 ,h1 , .div ,.div111{
         left: -200px;
         transition: all .5s ease-in-out;
     }
-    
+    .library{
+        display: block;
+        width: 150px;
+        height: 30px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgb(255, 255, 255);
+        position: fixed;
+        z-index: 1000;
+        top: 200px;
+        left: -200px;
+        transition: all .5s ease-in-out;
+        transition-delay: .4s;
+    }
     .start.show{
         left: 10px;
     }
@@ -190,18 +211,22 @@ h2 ,h1 , .div ,.div111{
         left: 10px;
     }
 
+    .library.show{
+        left: 10px;
+    }
 
 
 
-    .authors .aaa, .start .aaa{
+
+    .authors .aaa, .start .aaa ,.library .aaa{
         color: black;
         font-weight: 800;
         text-decoration: none;
     }
 
-    .Cover{
+    /* .Cover{
         display: none;
-    }
+    } */
 
     .Cover00{
         display: block;
