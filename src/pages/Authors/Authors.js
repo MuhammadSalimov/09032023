@@ -23,7 +23,7 @@ const Authors = () => {
             </div>
             <div className={Css.dflex}>
                 <div className={Css.col1}>
-                    <img src="" alt="img" />
+                    <img src="./Autors2.jpg" alt="img" />
                 </div>
                 <div className={Css.col2}>
                    <div>
