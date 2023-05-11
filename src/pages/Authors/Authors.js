@@ -31,7 +31,7 @@ const Authors = () => {
                     KARSHIYEV XUSAN  BERKINBAYEVICH
                     </b>
                     <p className={Css.ppp}>
-                    Sharof Rashidov nomidagi Samarqand davlat universiteti, Intilektual tizimlar va kompyuter texnalogiyalari fakulteti, "Sun’iy intellekt va axborot tizimlari" kafedrasi dotsenti, texnika fanlari bo'yicha falsafa doktori.
+                    Sharof Rashidov nomidagi Samarqand davlat universiteti, intellektual tizimlar va kompyuter texnologiyalari fakulteti, "Sun’iy intellekt va axborot tizimlari" kafedrasi dotsenti, texnika fanlari bo'yicha falsafa doktori.
                     </p>
                    </div>
                 </div>
